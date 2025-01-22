@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bow Hotels Ltd - Luxurious stays at premium locations">
+    <meta name="keywords" content="Hotels, Luxury, Bow Hotels, Accommodation, Stays">
+    <title>Bow Hotels Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Bow Hotels Ltd Logo">
+                </a>
+            </div>
+            <h1>Bow Hotels Ltd</h1>
+            <nav>
+                <ul>
+                    <li><a href="#property1">The Royal Retreat</a></li>
+                    <li><a href="#property2">Seaside Escape</a></li>
+                    <li><a href="#coming-soon">Coming Soon</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Property Section -->
+        <section class="hotel-section" style="display: flex; justify-content: space-around; padding: 20px;">
+            <div id="property1" class="container" style="flex: 1; margin: 10px;">
+                <h2><a href="royal-retreat.html" target="_blank">The Royal Retreat</a></h2>
+                <p>Experience luxury at The Royal Retreat with world-class amenities.</p>
+                <img src="images/index-image.jpg" alt="Royal Retreat" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </div>
+
+            <div id="property2" class="container" style="flex: 1; margin: 10px;">
+                <h2><a href="seaside-escape.html" target="_blank">Seaside Escape</a></h2>
+                <p>Relax by the beach at Seaside Escape, offering stunning ocean views.</p>
+                <img src="images/index-image2.jpg" alt="Seaside Escape" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section id="coming-soon" class="hotel-section">
+            <div class="container">
+                <h2>Coming Soon</h2>
+                <div class="coming-soon-properties" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                    <div class="property-box" style="flex: 1; margin: 10px; text-align: center;">
+                        <h3>City Lights Hotel</h3>
+                        <p>Stay tuned for our urban escape in the heart of the city.</p>
+                        <img src="images/city-lights.jpg" alt="City Lights Hotel" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div class="property-box" style="flex: 1; margin: 10px; text-align: center;">
+                        <h3>Mountain Bliss Resort</h3>
+                        <p>A retreat nestled in the mountains, coming soon.</p>
+                        <img src="images/mountain-bliss.jpg" alt="Mountain Bliss Resort" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                    <div class="property-box" style="flex: 1; margin: 10px; text-align: center;">
+                        <h3>Safari Adventure Lodge</h3>
+                        <p>Exciting wildlife experiences await at our safari lodge.</p>
+                        <img src="images/safari-adventure.jpg" alt="Safari Adventure Lodge" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any inquiries, please get in touch using the form below.</p>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="contact-info">
+                    <p>Email: info@Bowhotels.ca</p>
+                    <p>Phone: +123-456-7890</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bow Hotels Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
